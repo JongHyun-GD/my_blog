@@ -30,9 +30,14 @@ module.exports = {
       {
         date: '2018.07 ~ 2018.12',
         activity: '자존감 랩실(X-ray 그리드 라인 제거 개선 기법 연구)',
+		links: {
+			post: '',
+			googlePlay: '',
+			appStore: '',
+			github: ''
+		},
       },
     ],
-
     projects: [
       {
         title: 'Picky(글로벌 스킨케어 제품 분석 모바일 앱) 개발',
