@@ -35,7 +35,7 @@ module.exports = {
 			googlePlay: '',
 			appStore: '',
 			github: ''
-		},
+		}
       },
     ],
     projects: [
@@ -51,7 +51,7 @@ module.exports = {
             'https://zoomkoding.github.io/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/%ED%9A%8C%EA%B3%A0/2020/03/25/start-up-app-development.html',
           googlePlay: 'https://play.google.com/store/apps/details?id=care.jivaka.picky',
           appStore: 'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
-        },
+        }
 	  },
     ],
   },
