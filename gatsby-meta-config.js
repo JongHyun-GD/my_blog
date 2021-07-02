@@ -15,7 +15,7 @@ module.exports = {
       repo: `JongHyun-GD/my_blog`,
     },
   },
-  ga: '', // Google Analytics Tracking ID
+  ga: 'G-7726JGJW3X', // Google Analytics Tracking ID
 
   // metadata for bio
   bio: {
