@@ -26,6 +26,7 @@ module.exports = {
 
   // metadata for About Page
   about: {
+	  /*
     timestamps: [
       {
         date: '2018.07 ~ 2018.12',
@@ -36,7 +37,7 @@ module.exports = {
 			appStore: '',
 			github: ''
 		}
-      },
+      }
     ],
     projects: [
       {
@@ -52,7 +53,8 @@ module.exports = {
           googlePlay: 'https://play.google.com/store/apps/details?id=care.jivaka.picky',
           appStore: 'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
         }
-	  },
+	  }
     ],
+*/
   },
 };
