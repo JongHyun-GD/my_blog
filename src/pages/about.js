@@ -41,7 +41,6 @@ export const pageQuery = graphql`
         }
 
         about {
-			/*
           timestamps {
             date
             activity
@@ -67,7 +66,6 @@ export const pageQuery = graphql`
               appStore
             }
           }
-		  */
         }
       }
     }
