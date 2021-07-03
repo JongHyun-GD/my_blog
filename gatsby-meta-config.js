@@ -1,7 +1,7 @@
 module.exports = {
-  title: `rien`,
-  description: `rien's blog`,
-  author: `rien`,
+  title: `jognhyun`,
+  description: `hyun's blog`,
+  author: `jonghyun`,
 
   siteUrl: `https://ri3n.netlify.com`,
   ogImage: `https://raw.githubusercontent.com/zoomKoding/gatsby-starter-zoomkoding/master/src/assets/og-image.png`,
