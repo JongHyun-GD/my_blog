@@ -1,5 +1,5 @@
 ---
-emoji: :framed_picture:
+emoji: 📸
 title: Unity's Built-in Pipeline
 date: '2021-02-16 19:41:00'
 author: jonghyun
