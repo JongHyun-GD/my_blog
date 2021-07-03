@@ -1,7 +1,7 @@
 ---
 emoji: 🎮
 title: command pattern
-date: 2021.02.25 17:38:00
+date: '2021-02-25 17:38:00'
 author: jonghyun
 tags: unity
 categories: unity

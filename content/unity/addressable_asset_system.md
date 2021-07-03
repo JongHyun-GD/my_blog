@@ -1,7 +1,7 @@
 ---
 emoji: 🏣
 title: Addressable Asset System
-date: 2021.03.02 15:39:00
+date: '2021-03-02 15:39:00'
 author: jonghyun
 tags: unity
 categories: unity

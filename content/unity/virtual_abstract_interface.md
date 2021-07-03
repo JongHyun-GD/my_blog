@@ -1,7 +1,7 @@
 ---
 emoji: ♻️
 title: virtual, abstract, interface
-date: 2021.02.23 14:31:00
+date: '2021-02-23 14:31:00'
 author: jonghyun
 tags: unity
 categories: unity
