@@ -17,7 +17,7 @@ const Bio = ({ bio, social }) => {
               <br />
               <ReactRotatingText items={bio?.description} />
               <br />
-              개발자 <strong>{bio?.name}</strong>입니다.
+				<strong>{bio?.name}</strong>입니다.
               <br />
             </p>
             <div className="social-links">

@@ -19,9 +19,9 @@ module.exports = {
 
   // metadata for bio
   bio: {
-    language: `en`, // 'en', 'ko'
-    name: 'rien',
-    description: ['who loves games', 'who enjoys learning', 'who likes to write'],
+    language: `ko`, // 'en', 'ko'
+    name: '박종현',
+    description: ['게임을 좋아하는', '배움을 즐기는', '개발자'],
   },
 
   // metadata for About Page
