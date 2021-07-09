@@ -52,7 +52,20 @@ categories: unity
 1.  패키지 매니저에서 Addressables System 적용
 2.  Inspector에서 해당 에셋을 클릭하고 Addressable에 체크 (해당 내용은 Addressable 윈도우에서 확인 가능)
 3.  "어드레스"를 이용한 Loading, Instantiating
-4.  `GameObject myGameObj; //// 로딩을 하고, 로딩이 끝나면 발동시킬 함수를 구독해놓을 수 있다. ... Addressables.LoadAsset<GameObject>("AssetAddress").Completed += onLoadDone; } //// 로딩이 끝나면 발동하는 콜백 함수 private void onLoadDone(IAsyncOperation<Sprite> obj) { myGameObject = obj.Result; } //// 실제 Instantiating Addressbles.Instantiate<GameObject>("AssetAddress"); // "AssetReference"를 이용한 로딩과 Instantiating // - Inspector에서 Address 입력을 도와준다. // - 직접 타이핑이 없어 오타 발생이 없다. public AssetReference spawnObject; public void Spawn() { spawnObject.InstantiateAsync(); // 또는 spawnObject.LoadAsset<GameObject>(); spawnObject.Instantiate<GameObject>(pos, rot); }`
+``` 
+GameObject myGameObj; //// 로딩을 하고, 로딩이 끝나면 발동시킬 함수를 구독해놓을 수 있다.
+...
+Addressables.LoadAsset<GameObject>("AssetAddress").Completed += onLoadDone; } //// 로딩이 끝나면 발동하는 콜백 함수
+private void onLoadDone(IAsyncOperation<Sprite> obj) { myGameObject = obj.Result; }
+Instantiating Addressbles.Instantiate<GameObject>("AssetAddress"); // "AssetReference"를 이용한 로딩과 Instantiating 
+// - Inspector에서 Address 입력을 도와준다.
+// - 직접 타이핑이 없어 오타 발생이 없다.
+public AssetReference spawnObject; public void Spawn() {
+	spawnObject.InstantiateAsync(); // 또는
+	spawnObject.LoadAsset<GameObject>();
+	spawnObject.Instantiate<GameObject>(pos, rot);
+}
+```
 5.  어드레스 해제
 
     -   LoadAsset => ReleaseAsset()
