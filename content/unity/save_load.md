@@ -31,7 +31,7 @@ PlayerPrefs는 **Build Setting에서 설정한 company name과 product name을 �
 
 PlayerPrefs로 만든 세이브 로드 코드는 다음과 같다.
 
-```
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
