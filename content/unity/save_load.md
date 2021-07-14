@@ -31,7 +31,7 @@ PlayerPrefs는 **Build Setting에서 설정한 company name과 product name을 �
 
 PlayerPrefs로 만든 세이브 로드 코드는 다음과 같다.
 
-```c#
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -93,7 +93,7 @@ PlayerPrefs
 
 세이브, 로드는 결국 파일로 저장하고 불러오는 것이다. 즉, Save는 bytearray로 serialize하는 것이고 Load는 deserialize해서 bytearray로 만드는 것이다. 이 일을 할 수 있는 Serializer를 C# 내장 함수를 통해 구현할 수 있다.
 
-```
+```csharp
  // 출처: https://answers.unity.com/questions/610893/how-do-i-save-a-custom-class-of-variables-to-playe.html 
  using System;
  using System.IO;
@@ -151,3 +151,6 @@ Custom Serializer
     -   직접 구현해야 한다.
     -   저장경로에 신경써줘야 한다. 이 과정에서 하드코딩이 될 여지가 있다.
         -   이는 유니티 내부 함수로 동적인 저장경로를 사용하면 해결할 수 있다.
+```toc
+
+```
