@@ -53,7 +53,7 @@ categories: unity
 2.  Inspector에서 해당 에셋을 클릭하고 Addressable에 체크 (해당 내용은 Addressable 윈도우에서 확인 가능)
 3.  "어드레스"를 이용한 Loading, Instantiating
 	
-	```csharp 
+	```cs 
 	GameObject myGameObj; //// 로딩을 하고, 로딩이 끝나면 발동시킬 함수를 구독해놓을 수 있다.
 	Addressables.LoadAsset<GameObject>("AssetAddress").Completed += onLoadDone; } //// 로딩이 끝나면 발동하는 콜백 함수
 	private void onLoadDone(IAsyncOperation<Sprite> obj) { myGameObject = obj.Result; }
