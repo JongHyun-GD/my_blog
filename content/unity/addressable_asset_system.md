@@ -97,6 +97,7 @@ categories: unity
     2.  Addressables의 Resource Locator가 실제 리소스 위치를 Resource Manager에게 넘긴다.
     3.  Resource Manager는 실제 리소스를 보고 적절한 Provider를 선정해서 AsyncOperation을 반환한다.
     4.  로드가 다 되면 로드 완료 이벤트가 발동한다.
+
 ```toc
 
 ```
