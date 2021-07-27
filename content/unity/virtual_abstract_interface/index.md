@@ -67,6 +67,7 @@ class Person : IAnimal, Monobehavior //interface는 다중 상속을 받을 수 
 ```
 
 <table style="border-collapse: collapse; width: 100%;" border="1" data-ke-style="style12" data-ke-align="alignLeft"><tbody><tr><td style="width: 33.3333%;">&nbsp;</td><td style="width: 33.3333%;">abstract class</td><td style="width: 33.3333%;">interface</td></tr><tr><td style="width: 33.3333%;">기능 구현</td><td style="width: 33.3333%;">불가능</td><td style="width: 33.3333%;">불가능</td></tr><tr><td style="width: 33.3333%;">다중 상속</td><td style="width: 33.3333%;">불가능</td><td style="width: 33.3333%;">가능</td></tr><tr><td style="width: 33.3333%;">abstract가 아닌 variable이나 method 소유</td><td style="width: 33.3333%;">가능</td><td style="width: 33.3333%;">불가능</td></tr></tbody></table>
+
 ```toc
 
 ```
